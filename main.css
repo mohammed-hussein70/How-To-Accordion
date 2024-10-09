@@ -1,0 +1,36 @@
+.sect,
+.sect2,
+.sect {
+  height: 80px;
+  width: 100%;
+  text-align: left;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #c0bdbd;
+  }
+  &:focus {
+    background-color: #c0bdbd;
+  }
+}
+button {
+  background-color: #eee;
+}
+
+.hide {
+  display: none;
+}
+.text {
+  display: none;
+}
+button {
+  span {
+    position: absolute;
+    right: 15px;
+  }
+}
+p {
+  font-weight: bold;
+  font-size: 25px;
+}
